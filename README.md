@@ -7,7 +7,7 @@ Ikeiwa is the person who originally created the Plasma Katanas.
 I do not take credit for any of the assets, nor does this project host them.
 You **need** the Plasma Katanas as well as Custom Sabers for this mod to do anything.
 
-Plasma Katanas:
+**Plasma Katanas**:
 Many people love them.
 One big contributor to this is their Full Combo effect.
 Some people use the Plasma Katanas specifically **because** of their Full Combo effect, and would like to use different saber pairs.
@@ -20,4 +20,4 @@ Having the mod installed causes the FC effect to be ripped from the Plasma Katan
 Using any non-default saber-pair will trigger the effect to appear if a full combo is achieved.
 
 # Confirmed to work on:
-Custom Sabers 4.0.1
+Custom Sabers 4.1.0 & 4.4.0

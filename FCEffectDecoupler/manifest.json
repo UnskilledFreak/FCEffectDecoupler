@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
   "author": "Tiruialon",
   "description": "Decouples the Plasma Katanas Full Combo Effect",
-  "gameVersion": "1.9.0",
+  "gameVersion": "1.10.0",
   "id": "FCEffectDecoupler",
   "name": "FCEffectDecoupler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "features": [
 
   ],
   "dependsOn": {
     "BS Utils": "^1.4.8",
-	  "Custom Sabers": "4.1.0"
+	  "Custom Sabers": "^4.1.0"
   }
 }

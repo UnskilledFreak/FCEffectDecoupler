@@ -18,7 +18,7 @@
     <AssemblyName>FCEffectDecoupler</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <BeatSaberDir>..\..\..\..\..\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\</BeatSaberDir>
+    <BeatSaberDir>J:\Steam\steamapps\common\Beat Saber\</BeatSaberDir>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -73,22 +73,22 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Libs\0Harmony.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Libs\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="BS_Utils, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Plugins\BS_Utils.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Plugins\BS_Utils.dll</HintPath>
     </Reference>
     <Reference Include="CustomSaber, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Plugins\CustomSaber.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Plugins\CustomSaber.dll</HintPath>
     </Reference>
     <Reference Include="IPA.Loader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\Managed\IPA.Loader.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Beat Saber_Data\Managed\IPA.Loader.dll</HintPath>
     </Reference>
     <Reference Include="Main">
-      <HintPath>..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\Managed\Main.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Beat Saber_Data\Managed\Main.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp.Features, Version=3.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeAnalysis.CSharp.Features.3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.CSharp.Features.dll</HintPath>
@@ -124,15 +124,15 @@
     <Reference Include="System" />
     <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Beat Saber_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Beat Saber_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\Nilin Cartier-Wells\Desktop\Games\Oculus\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>$(BeatSaberDir)Beat Saber_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
