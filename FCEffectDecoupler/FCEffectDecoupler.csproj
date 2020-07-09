@@ -59,9 +59,9 @@
   <ItemGroup>
     <Compile Include="Decoupler.cs" />
     <Compile Include="Decoupler.FCEffectMB.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="manifest.json" />
-    <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="HarmonyPatches\Patch.cs" />
     <Compile Include="HarmonyPatches\Patcher.cs" />
     <Compile Include="Plugin.cs" />
@@ -153,7 +153,6 @@
     <Analyzer Include="..\packages\Text.Analyzers.2.6.4\analyzers\dotnet\cs\Text.Analyzers.dll" />
     <Analyzer Include="..\packages\Text.Analyzers.2.6.4\analyzers\dotnet\cs\Text.CSharp.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="BuildTargets.targets" />
   <PropertyGroup>
